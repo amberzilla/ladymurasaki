@@ -5,6 +5,9 @@ WHAT IS THIS?
 h1:first-child {
 	margin: 0;
 }
+ul {
+	margin: 0;
+}
 
 /**************************************
 EVERYTHING 
@@ -17,17 +20,20 @@ body {
 }
 
 /**************************************
-PAGE UNO
+PAGE ONE - PHOTO 1
 ***************************************/
 
-#home_container {
+#page1_title {
 	min-height: 100vh;
 	background: url(pics/LadyMurasaki-213.jpg) no-repeat center fixed;
 	background-size: cover;
 	text-align: center;
+
+	margin: 0;
+	padding: 0;
 }
 
-#home_container h1 {
+#page1_title h1 {
 	font-family: 'Libre Baskerville', serif;
 	font-weight: 700;
 	font-size: 350%;
@@ -39,7 +45,7 @@ PAGE UNO
 }
 
 /**************************************
-PIC 2
+PAGE 2 - PHOTO 2
 ***************************************/
 
 #pic_2 {
@@ -51,33 +57,150 @@ PIC 2
 
 
 /**************************************
-ABOUT 
+PAGE 3 - ABOUT
 ***************************************/
 
 #about ul {
 	list-style: none;
 	text-align: left;
-	padding-top: 5%;
+	padding-top: 10%;
 	padding-bottom: 5%;
 
 	font-family: 'Libre Baskerville', serif;
 	font-weight: 700;
 	font-size: 350%;
-	color: #2E6D8A;
+	color: yellow;
 
 	min-height: 100vh;
 
-	/*background: url(pics/LadyMurasaki-213.jpg) no-repeat center fixed;
-	background-size: cover;*/
+	background-color: black;
 	
 }
+
+/**************************************
+PAGE 4 - PHOTO 3
+***************************************/
 
 #pic_3 {
 	min-height: 100vh;
 	position: relative;	
-	background: url(http://placekitten.com/1900/1080) no-repeat center fixed;
+	background: url(pics/LadyMurasaki-202.jpg) no-repeat center fixed;
 	background-size: cover;
 }
+
+#pic_3 h1 {
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 700;
+	font-size: 350%;
+	color: yellow;
+
+	text-align: center;
+	padding-top: 30%;
+
+}
+
+/**************************************
+PAGE 5 - AMBER
+***************************************/
+
+#amber {
+	min-height: 100vh;
+	position: relative;
+	background: url(pics/LadyMurasaki-190.jpg) no-repeat center fixed;
+	background-size: cover;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+#amber ul {
+	list-style: none;
+	text-align: left;
+	padding-top: 20%;
+
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 700;
+	font-size: 350%;
+	color: yellow;
+}
+
+/**************************************
+PAGE 5 - STEPHEN
+***************************************/
+
+#stephen {
+	min-height: 100vh;
+	position: relative;
+	background: url(pics/LadyMurasaki-175.jpg) no-repeat center fixed;
+	background-size: cover;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+#stephen ul {
+	list-style: none;
+	text-align: left;
+	padding-top: 30%;
+	padding-left: 25%;
+
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 700;
+	font-size: 350%;
+	color: yellow;
+}
+
+/**************************************
+PAGE 6 - TYLER
+***************************************/
+
+#tyler {
+	min-height: 100vh;
+	position: relative;
+	background: url(pics/LadyMurasaki-193.jpg) no-repeat center fixed;
+	background-size: cover;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+#tyler ul {
+	list-style: none;
+	text-align: left;
+	padding-top: 40%;
+	padding-left: 10%;
+
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 700;
+	font-size: 350%;
+	color: yellow;
+}
+
+/**************************************
+PAGE 7 - JONATHAN
+***************************************/
+
+#jonathan {
+	min-height: 100vh;
+	position: relative;
+	background: url(pics/LadyMurasaki-198.jpg) no-repeat center fixed;
+	background-size: cover;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+#jonathan ul {
+	list-style: none;
+	text-align: left;
+	padding-top: 30%;
+	padding-left: 60%;
+
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 700;
+	font-size: 350%;
+	color: yellow;
+}
+
+
+
+
 
 
 
