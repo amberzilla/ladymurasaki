@@ -60,11 +60,11 @@ PAGE 2 - PHOTO 2
 PAGE 3 - ABOUT
 ***************************************/
 
-#about ul {
+#about p {
 	list-style: none;
 	text-align: left;
-	padding-top: 10%;
-	padding-bottom: 5%;
+	padding-top: 15%;
+	padding-bottom: 2%;
 
 	font-family: 'Libre Baskerville', serif;
 	font-weight: 700;
@@ -74,6 +74,7 @@ PAGE 3 - ABOUT
 	min-height: 100vh;
 
 	background-color: black;
+	margin: 0;
 	
 }
 
@@ -87,7 +88,7 @@ PAGE 4 - PHOTO 3
 	background: url(pics/LadyMurasaki-202.jpg) no-repeat center fixed;
 	background-size: cover;
 }
-
+/*
 #pic_3 h1 {
 	font-family: 'Libre Baskerville', serif;
 	font-weight: 700;
@@ -97,7 +98,7 @@ PAGE 4 - PHOTO 3
 	text-align: center;
 	padding-top: 30%;
 
-}
+}*/
 
 /**************************************
 PAGE 5 - AMBER
@@ -197,6 +198,10 @@ PAGE 7 - JONATHAN
 	font-size: 350%;
 	color: yellow;
 }
+
+/**************************************
+PAGE 8 - BANDCAMP
+***************************************/
 
 
 
